@@ -1,4 +1,7 @@
 
+import dns from 'dns';
+
+dns.setServers(['1.1.1.1', '8.8.8.8']);
 import 'colors'
 import { dirname } from 'node:path'
 import { readFileSync } from 'node:fs'
